@@ -169,3 +169,8 @@ for p in read_folder.glob("*.fastq.gz"):
     read_count = line_count // 4
     print(f"Total reads: {read_count}\n")
 ```
+
+## Subprocess
+```{python}
+teste
+```
