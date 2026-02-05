@@ -8,7 +8,7 @@
 - CS50’s Introduction to Programming with Python - https://cs50.harvard.edu/python/
 
 # Tutoriais
-## Linux (`linux.tutorial.md`):
+## Linux `linux.tutorial.md`:
 - Básico: navegação pelo terminal
 - Redirecionamento de arquivos (cat, grep, cut)
 - PATH, aliases e ~/.bashrc
@@ -16,7 +16,7 @@
 - Manipulação de arquivos FASTA e FASTQ (seqkit e bash basico)
 
   
-## Python (python_modules.md):
+## Python `python_modules.md`:
 Instrução de bibliotecas essenciais, como:
 - pandas
 - argparse
