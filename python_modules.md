@@ -144,8 +144,28 @@ with arquivo.open() as file:
 Obhetivo:
 - Receber uma pasta com arquivos FASTQ
 - Iterar por todos os arquivos da pasta
-Para cada arquivo:
-- contar quantos reads existem
-- mostrar o nome do arquivo
-- mostrar o total de arquivos analisados
-- mostrar o total de reads somados
+- Para cada arquivo contar quantos reads existem
+```{python}
+import argparse
+from pathlib import Path
+import gzip
+
+# Configurar o parser de argumentos
+parser = argparse.ArgumentParser()
+parser.add_argument('-r', '--reads', help='Read folder to inspect')
+args = parser.parse_args()
+
+# Definir o caminho da pasta de reads
+read_folder = Path(args.reads) #/home/lusa/metagenomes/PE_reads
+
+# Listar todos os arquivos .fastq.gz na pasta de reads
+for p in read_folder.glob("*.fastq.gz"):  
+    print(f"Analyzing file: {p.stem}")
+    line_count = 0
+
+    with gzip.open(p,'rt') as file: # Abrir o arquivo .fastq.gz em modo de texto (gunzipado)
+        for _ in file:
+            line_count += 1
+    read_count = line_count // 4
+    print(f"Total reads: {read_count}\n")
+```
