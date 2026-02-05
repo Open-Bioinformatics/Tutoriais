@@ -16,4 +16,11 @@
 - Manipulação de arquivos FASTA e FASTQ (seqkit e bash basico)
 
   
-
+## Python (python_modules.md):
+Instrução de bibliotecas essenciais, como:
+- pandas
+- argparse
+- pathlib
+- subprocess
+- logging
+- json / yaml
