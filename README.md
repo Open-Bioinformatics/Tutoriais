@@ -6,21 +6,22 @@
 - Curso R (introdução) - https://wapsyed.github.io/cursor/#sobre-o-curso
 - Conda cheatsheet - https://docs.conda.io/projects/conda/en/latest/_downloads/843d9e0198f2a193a3484886fa28163c/conda-cheatsheet.pdf
 - CS50’s Introduction to Programming with Python - https://cs50.harvard.edu/python/
-
-# Tutoriais
-## Linux `linux.tutorial.md`:
-- Básico: navegação pelo terminal
-- Redirecionamento de arquivos (cat, grep, cut)
-- PATH, aliases e ~/.bashrc
-- Trillium (Large parallel cluster built by Lenovo Canada and hosted by SciNet at the University of Toronto)
-- Manipulação de arquivos FASTA e FASTQ (seqkit e bash basico)
-
+---
+# Diretórios
+## Linux:
+- `basics.md` - navegação pelo terminal, redirecionamento de arquivos (cat, grep, cut), PATH, aliases e ~/.bashrc
+- `Trillium.md` - Trillium (Large parallel cluster built by Lenovo Canada and hosted by SciNet at the University of Toronto)
+- `seqkit.md` - Manipulação de arquivos FASTA e FASTQ (seqkit e bash basico)
+- `find.md` - Procurar arquivos e caminhos, modificar nomes, mover, copiar todos...
   
-## Python `python_modules.md`:
+## Python:
 Instrução de bibliotecas essenciais, como:
-- pandas
 - argparse
 - pathlib
+
+## Vem por ai...
+- pandas
 - subprocess
 - logging
 - json / yaml
+---
