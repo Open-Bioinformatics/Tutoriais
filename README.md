@@ -18,10 +18,3 @@
 Instrução de bibliotecas essenciais, como:
 - argparse
 - pathlib
-
-## Vem por ai...
-- pandas
-- subprocess
-- logging
-- json / yaml
----
